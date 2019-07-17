@@ -1,36 +1,202 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Lab 1 - Web Developer</title>
+    <meta charset="utf-8"> <!-- Metadata para el navegador -->
+    <title>RapiPelis</title> <!-- Titulo de la pagina Web  -->
+    <style>
+        /* Etiqueta para incluir estilos css */
+        body {
+            /*Degradados Proveidos por UiGradients*/
+            background: #67B26F;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4ca2cd, #67B26F);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            /* Tipo de letra de Contenedor h1*/
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            font-size: 20px;
+
+        }
+
+        h1 {
+            /*Degradados Proveidos por UiGradients*/
+            background: #0F2027;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+            /*Contenedor redondeado para h1 */
+            border-radius: 25px;
+            /* Tipo de letra de Contenedor h1*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            /* Color de letra del contendor h1 */
+            color: #fff;
+            /* Espaciamiento del contenido de h1 */
+            padding: 3%;
+
+        }
+
+        section {
+            /*Degradados Proveidos por UiGradients*/
+            background: #0F2027;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+            /*Contenedor redondeado para h1 */
+            border-radius: 25px;
+            /* Tipo de letra de Contenedor h1*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            /* Color de letra del contendor h1 */
+            color: #fff;
+            /* Espaciamiento del contenido de h1 */
+            padding: 1%;
+            align-content: center;
+
+        }
+
+        p {
+            /* Tipo de letra de Contenedor h1*/
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        form {
+            width: 450px;
+            margin: auto;
+            background: #000;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 0px;
+            font-family: arial;
+
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        textarea {
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%;
+
+        }
+
+        #boton {
+            background: #31384A;
+            color: #FFF;
+            padding: 20PX;
+
+        }
+
+        #boton:hover {
+            cursor: pointer;
+        }
+    </style>
+
 
 </head>
 
 <body>
-    <h1>
-        Desarrollo Web UMG
-    </h1>
-    <p>
+    <center>
+        <h1>
+            RapiPelis
+        </h1>
+
+        <img src="img\banner.png" /> <!-- Imagen de Banner Principal-->
+
+
         <article>
+            <!-- Contenedor de cartelera -->
+            <!-- Contenedores de Peliculas-->
+            <section>
 
+               <h2> <strong>Spider-Man: Lejos de casa </strong> </h2> <!-- Letra resaltada -->
+               <br>
+                <iframe width="1080" height="315" src="https://www.youtube.com/embed/Nt9L1jCKGnE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>
+                    Peter Parker regresa en Spider-Man: Lejos de casa el siguiente capítulo en la serie de Spider-Man:
+                    Homecoming. Nuestro amistoso vecino superhéroe decide unirse a sus mejores amigos Ned, MJ, y el
+                    resto del grupo a unas vacaciones europeas. Aunque, el plan de Peter sea dejar sus heroicidades
+                    atrás durante unas pocas semanas, pronto desecha esas ideas para ayudar a regañadientes a Nick Furia
+                    a desentrañar el misterio de los ataques de varias criaturas elementales, que están creando el caos
+                    en el mundo.
+                </p>
+
+            </section><br>
+
+            <section>
+                    <h2> <strong>El rey león</strong> </h2> <!-- Letra resaltada -->
+                    <br>
+                <iframe width="1080" height="315" src="https://www.youtube.com/embed/8foZzQf1L9o" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>
+                    EL REY LEÓN de Disney, dirigida por Jon Favreau, nos lleva a la sabana africana donde un futuro rey
+                    ha nacido. Simba idolatra a su padre, el rey Mufasa, y está entusiasmado con su destino real. Pero
+                    no todos en el reino celebran la llegada del nuevo cachorro. Scar, el hermano de Mufasa y antiguo
+                    heredero al trono, tiene sus propios planes. La batalla de La Roca del Rey se ve teñida de traición,
+                    tragedia y drama, y acaba forzando a Simba al exilio. Con la ayuda de una curiosa pareja de amigos
+                    nuevos, Simba tendrá que arreglárselas para crecer y recuperar lo que legítimamente le corresponde.
+                    El estelar reparto incluye a: Donald Glover como Simba, Beyoncé Knowles-Carter en el papel de Nala,
+                    James Earl Jones como Mufasa, Chiwetel Ejiofor como Scar, Seth Rogen como Pumba y Billy Eichner en
+                    el papel de Timón.
+                </p>
+
+            </section>
         </article>
-    </p>
+        <br>
+        <form id="cont">
+            <!-- Formulario de Contacto-->
+            <h2> Contacto </h2> <!-- Titulo -->
+            <!-- Campos de texto -->
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="correo" placeholder="Correo">
+            <input type="text" name="telefono" placeholder="Telefono">
+            <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
+            <!-- Boton -->
+            <input type="button" value="ENVIAR" id="boton">
 
-    <p>
-        Esto es un hipervinculo:
-        <a href="https://es.lipsum.com/" target="_blank">Sitio de Textos</a>
-    </p>
-    <img src="img\mifoto500-x.jpg" />
-    <br>
+        </form>
 
-    </br>
+        <br><br>
 
+        <a href="https://github.com/GusWebDeveloper/WebDeveloperUMG">Gustavo Perez 0901-16-420 Ingenieria de Sistemas UMG </a>
 
+        <br>
+        <br>
+
+    </center>
 
 </body>
 
